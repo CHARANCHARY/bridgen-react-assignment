@@ -1,0 +1,25 @@
+.upload-main-container {
+  border: 1px solid #07817a;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+}
+.button {
+  background-color: #07817a;
+  height: 30px;
+  width: 160px;
+  border-radius: 5px;
+  color: aliceblue;
+  border: 0px;
+}
+.para {
+  color: #07817a;
+}
+.upload-icon {
+  height: 80px;
+  width: 40px;
+}

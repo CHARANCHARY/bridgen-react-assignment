@@ -1,0 +1,97 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.original-btn {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  align-self: center;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: cref serif;
+}
+.pop-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-family: Lucida;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 30px;
+}
+.close-btn {
+  border: 0px solid;
+  background-color: transparent;
+  align-self: flex-end;
+}
+.close-icon {
+  height: 40px;
+  width: 30px;
+}
+.use-this-btn {
+  background-color: #07817a;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  width: 80vh;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.original-crop {
+  width: auto;
+  height: 40vh;
+}
+.circle-crop {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.heart-crop {
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  clip-path: polygon(50% 40%, 100% 30%, 50% 100%, 50% 100%, 0% 35%);
+  overflow: hidden;
+}
+
+.square-crop {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rectangle-crop {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.selected-home-img {
+  width: 200px;
+  height: 400px;
+}

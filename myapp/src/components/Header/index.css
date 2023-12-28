@@ -1,0 +1,16 @@
+.header-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-heading {
+  font-family: Lucida;
+  font-weight: 400;
+  color: gray;
+}
+.arrow-icon {
+  font-size: 30px;
+  align-self: center;
+  color: grey;
+  margin-right: 20px;
+}
